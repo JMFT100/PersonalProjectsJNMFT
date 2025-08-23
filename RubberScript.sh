@@ -1,5 +1,5 @@
 curl -sL "http://tinyurl.com/s63ve48" > rick.mp3
-
+xdg-open "https://fakeupdate.net/sarcastic/"
 
   for runner in mpg123 mpg321 ffplay mplayer vlc cvlc; do
     if command -v "$runner" > /dev/null 2>&1; then
@@ -15,3 +15,4 @@ curl -sL "http://tinyurl.com/s63ve48" > rick.mp3
   done
 
   xdg-open "http://tinyurl.com/s63ve48";
+
